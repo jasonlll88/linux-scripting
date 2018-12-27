@@ -2,7 +2,8 @@
 
 USAGE="usage: $0 -x -y"
 
-while getopt :xy: opt_char
+while getopts :xyz: opt_char
+
 do 
 	case $opt_char in
 	x)
